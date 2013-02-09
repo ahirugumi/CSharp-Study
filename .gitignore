@@ -1,0 +1,10 @@
+
+*.dll
+
+kinmokusei/bin/Debug/kinmokusei.dll.mdb
+
+kinmokusei/test-results/kinmokusei.csproj-Debug-2013-02-09.xml
+
+kinmokusei/test-results/kinmokusei.csproj.test-cache
+
+.DS_Store
