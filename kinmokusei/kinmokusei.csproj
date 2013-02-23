@@ -36,6 +36,8 @@
     <Compile Include="MyClass.cs" />
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="test\MyClassTest.cs" />
+    <Compile Include="MyBaseClass.cs" />
+    <Compile Include="MyEnum.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

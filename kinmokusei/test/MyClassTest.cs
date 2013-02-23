@@ -12,7 +12,7 @@ namespace kinmokusei
 		[SetUp()]
 		public  void forSampleTest ()
 		{
-			my=new MyClass();
+			my=new MyClass("test");
 		}
 		
 		[Test()]
@@ -59,5 +59,17 @@ namespace kinmokusei
 			int[] args ={1,2,3,4,5,6,7,8,9,10};
 			Assert.AreEqual(my.WhileSample(args),55);
 		}
+
+		[Test()]
+		public void PropertyTest ()
+		{
+			Assert.AreEqual(my.Id, "XXXtestZZZ");
+		} 
+		 
+		[Test()]
+		public void EnumTest ()
+		{
+			Assert.IsInstanceOf<MyEnum>(my.Language);
+		} 
 	}
 }
