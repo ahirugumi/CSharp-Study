@@ -1,18 +1,19 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="kinmokusei/test/MyClassTest.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="kinmokusei/MyBaseClass.cs">
     <Files>
-      <File FileName="kinmokusei/MyClass.cs" Line="28" Column="1" />
-      <File FileName="kinmokusei/AssemblyInfo.cs" Line="1" Column="1" />
-      <File FileName="kinmokusei/test/MyClassTest.cs" Line="67" Column="4" />
+      <File FileName="kinmokusei/MyClass.cs" Line="18" Column="21" />
+      <File FileName="kinmokusei/test/MyClassTest.cs" Line="91" Column="1" />
+      <File FileName="kinmokusei/MyEnum.cs" Line="1" Column="1" />
+      <File FileName="kinmokusei/MyBaseClass.cs" Line="10" Column="4" />
+      <File FileName="kinmokusei/test/MyBaseClassTest.cs" Line="11" Column="37" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="kinmokusei" expanded="True">
-            <Node name="test" expanded="True">
-              <Node name="MyClassTest.cs" selected="True" />
-            </Node>
+            <Node name="test" expanded="True" />
+            <Node name="MyBaseClass.cs" selected="True" />
           </Node>
         </State>
       </Pad>

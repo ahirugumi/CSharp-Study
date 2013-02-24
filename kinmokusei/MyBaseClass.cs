@@ -4,8 +4,9 @@ namespace kinmokusei
 {
 	public class MyBaseClass
 	{
-		public MyBaseClass ()
+		static MyBaseClass ()
 		{
+			Console.WriteLine ("default static constructor called"); 
 		}
 	}
 }

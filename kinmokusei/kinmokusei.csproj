@@ -35,9 +35,12 @@
   <ItemGroup>
     <Compile Include="MyClass.cs" />
     <Compile Include="AssemblyInfo.cs" />
-    <Compile Include="test\MyClassTest.cs" />
+    <Compile Include="test\MyClassTest.cs">
+      <DependentUpon>MyClassTest.cs</DependentUpon>
+    </Compile>
     <Compile Include="MyBaseClass.cs" />
     <Compile Include="MyEnum.cs" />
+    <Compile Include="test\MyBaseClassTest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

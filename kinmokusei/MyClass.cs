@@ -2,24 +2,26 @@ using System;
 
 namespace kinmokusei
 {
-	public class MyClass 
+	public class MyClass
 	{ 
-		const string prefix="XXX"; 
-		 
-		private readonly string prefix2="ZZZ"; 
+		const string prefix = "XXX";
+		private readonly string prefix2 = "ZZZ";
 		 
 		public string Id { get; private set; }
-		public MyEnum Language{ get; private set;}  
+
+		public string Name { get; set; } 
+
+		public MyEnum Language{ get; private set; }
 		 
 		public MyClass ()
 		{
-			Console.WriteLine("default constructor called"); 
+			Console.WriteLine ("default constructor called"); 
 		}
 
 		public MyClass (String id)
-			:this()  
+			:this()
 		{
-			this.Id=prefix + id + prefix2; 
+			this.Id = prefix + id + prefix2; 
 		}
 		 
 		public String IfSample (int arg)
@@ -89,6 +91,11 @@ namespace kinmokusei
 				i++;
 			}
 			return result;
+		}
+		 
+		public string DefaultArgsSample (string args1, string args2=default(string), string args3="default string")
+		{
+			return args1 + ":" + args2 + ":" + args3;
 		}
 	}
 }

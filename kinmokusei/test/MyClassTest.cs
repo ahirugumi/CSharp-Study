@@ -71,5 +71,21 @@ namespace kinmokusei
 		{
 			Assert.IsInstanceOf<MyEnum>(my.Language);
 		} 
+
+		[Test()]
+		public void DefaultArgsTest()
+		{
+			Assert.AreEqual(my.DefaultArgsSample("args1"),"args1::default string"); 
+			Assert.AreEqual(my.DefaultArgsSample("args1","args2"),"args1:args2:default string");
+			Assert.AreEqual(my.DefaultArgsSample("args1","args2","args3"),"args1:args2:args3");
+			Assert.AreEqual(my.DefaultArgsSample("args1",args3:"args3"),"args1::args3");
+		}
+
+		[Test()]
+		public void ObjectInitArgsTest()
+		{
+			MyClass myclass = new MyClass(){Name="ObjectInitArgs"};
+			Assert.AreEqual(myclass.Name ,"ObjectInitArgs");
+		} 
 	}
 }
