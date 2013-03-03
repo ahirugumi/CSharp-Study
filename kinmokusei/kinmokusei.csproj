@@ -41,6 +41,8 @@
     <Compile Include="MyBaseClass.cs" />
     <Compile Include="MyEnum.cs" />
     <Compile Include="test\MyBaseClassTest.cs" />
+    <Compile Include="MyDerivedClass.cs" />
+    <Compile Include="test\MyDerivedClassTest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

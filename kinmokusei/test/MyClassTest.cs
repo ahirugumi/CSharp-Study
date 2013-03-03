@@ -5,7 +5,7 @@ using kinmokusei;
 namespace kinmokusei
 {
 	[TestFixture()]
-	public class KinmokuseiTest
+	public class MyClassTest
 	{
 		private MyClass my=null;
 		
