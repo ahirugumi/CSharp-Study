@@ -12,5 +12,10 @@ namespace kinmokusei
 		{
 			return "base virtual method override"; 
 		}
+
+		public string CallBaseMethod()
+		{
+			return base.BaseMethod() + " & derived call base method";
+		}
 	}
 }

@@ -43,6 +43,11 @@
     <Compile Include="test\MyBaseClassTest.cs" />
     <Compile Include="MyDerivedClass.cs" />
     <Compile Include="test\MyDerivedClassTest.cs" />
+    <Compile Include="MySealedClass.cs" />
+    <Compile Include="MySealedDerivedClass.cs" />
+    <Compile Include="MyAbstractClass.cs" />
+    <Compile Include="MyAbstractDerivedClass.cs" />
+    <Compile Include="test\MyAbstractDerivedClassTest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

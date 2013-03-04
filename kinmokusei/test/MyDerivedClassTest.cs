@@ -38,6 +38,12 @@ namespace kinmokusei
 		{
 			Assert.AreEqual(my.BaseVirtualMethod(),"base virtual method override"); 
 		}
+
+		[Test()]
+		public void CallBaseMethodTest()
+		{
+			Assert.AreEqual(my.CallBaseMethod(),"base method called & derived call base method" ); 
+		}
 	}
 }
 
