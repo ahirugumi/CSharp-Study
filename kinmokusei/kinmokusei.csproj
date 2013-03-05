@@ -48,6 +48,10 @@
     <Compile Include="MyAbstractClass.cs" />
     <Compile Include="MyAbstractDerivedClass.cs" />
     <Compile Include="test\MyAbstractDerivedClassTest.cs" />
+    <Compile Include="IMyFooInterface.cs" />
+    <Compile Include="IMyBarInterface.cs" />
+    <Compile Include="MyBazClass.cs" />
+    <Compile Include="test\MyBazClassTest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

@@ -1,15 +1,43 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="kinmokusei/MyClass.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="kinmokusei/MyBazClass.cs">
     <Files>
       <File FileName="kinmokusei/MyClass.cs" Line="11" Column="1" />
       <File FileName="kinmokusei/test/MyClassTest.cs" Line="91" Column="1" />
       <File FileName="kinmokusei/MyEnum.cs" Line="13" Column="1" />
       <File FileName="kinmokusei/MyBaseClass.cs" Line="9" Column="39" />
-      <File FileName="kinmokusei/MyDerivedClass.cs" Line="22" Column="1" />
-      <File FileName="kinmokusei/test/MyBaseClassTest.cs" Line="21" Column="1" />
+      <File FileName="kinmokusei/test/MyBaseClassTest.cs" Line="15" Column="20" />
       <File FileName="kinmokusei/test/MyDerivedClassTest.cs" Line="44" Column="4" />
+      <File FileName="kinmokusei/MySealedClass.cs" Line="1" Column="1" />
+      <File FileName="kinmokusei/MySealedDerivedClass.cs" Line="15" Column="1" />
+      <File FileName="kinmokusei/MyAbstractClass.cs" Line="15" Column="1" />
+      <File FileName="kinmokusei/MyAbstractDerivedClass.cs" Line="18" Column="1" />
+      <File FileName="kinmokusei/test/MyAbstractDerivedClassTest.cs" Line="14" Column="3" />
+      <File FileName="kinmokusei/MyDerivedClass.cs" Line="22" Column="1" />
+      <File FileName="kinmokusei/IMyFooInterface.cs" Line="12" Column="1" />
+      <File FileName="kinmokusei/IMyBarInterface.cs" Line="11" Column="1" />
+      <File FileName="kinmokusei/MyBazClass.cs" Line="11" Column="1" />
+      <File FileName="kinmokusei/test/MyBazClassTest.cs" Line="22" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="kinmokusei" expanded="True">
+            <Node name="test" expanded="True" />
+            <Node name="MyBazClass.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
