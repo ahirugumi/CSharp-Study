@@ -46,12 +46,25 @@
     <Compile Include="MySealedClass.cs" />
     <Compile Include="MySealedDerivedClass.cs" />
     <Compile Include="MyAbstractClass.cs" />
-    <Compile Include="MyAbstractDerivedClass.cs" />
+    <Compile Include="MyAbstractDerivedClass.cs">
+      <DependentUpon>MyAbstractDerivedClass.cs</DependentUpon>
+    </Compile>
     <Compile Include="test\MyAbstractDerivedClassTest.cs" />
     <Compile Include="IMyFooInterface.cs" />
     <Compile Include="IMyBarInterface.cs" />
     <Compile Include="MyBazClass.cs" />
     <Compile Include="test\MyBazClassTest.cs" />
+    <Compile Include="MyDelegateClass.cs" />
+    <Compile Include="test\MyDelegateClassTest.cs" />
+    <Compile Include="MySubClass1.cs" />
+    <Compile Include="MySubClass2.cs" />
+    <Compile Include="MySubClass3.cs" />
+    <Compile Include="test\MySubClassTest.cs" />
+    <Compile Include="MyDelegateAbstractClass.cs" />
+    <Compile Include="MyGenericActionDelegateClass.cs" />
+    <Compile Include="test\MyGenericActionDelegateClassTest.cs" />
+    <Compile Include="MyGenericPredicateDelegateClass.cs" />
+    <Compile Include="test\MyGenericPredicateDelegateClassTest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

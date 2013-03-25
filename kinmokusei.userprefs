@@ -1,11 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="kinmokusei/MyBazClass.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="kinmokusei/MyBaseClass.cs">
     <Files>
       <File FileName="kinmokusei/MyClass.cs" Line="11" Column="1" />
       <File FileName="kinmokusei/test/MyClassTest.cs" Line="91" Column="1" />
       <File FileName="kinmokusei/MyEnum.cs" Line="13" Column="1" />
-      <File FileName="kinmokusei/MyBaseClass.cs" Line="9" Column="39" />
+      <File FileName="kinmokusei/MyBaseClass.cs" Line="30" Column="1" />
       <File FileName="kinmokusei/test/MyBaseClassTest.cs" Line="15" Column="20" />
       <File FileName="kinmokusei/test/MyDerivedClassTest.cs" Line="44" Column="4" />
       <File FileName="kinmokusei/MySealedClass.cs" Line="1" Column="1" />
@@ -24,7 +24,7 @@
         <State expanded="True">
           <Node name="kinmokusei" expanded="True">
             <Node name="test" expanded="True" />
-            <Node name="MyBazClass.cs" selected="True" />
+            <Node name="MyBaseClass.cs" selected="True" />
           </Node>
         </State>
       </Pad>
