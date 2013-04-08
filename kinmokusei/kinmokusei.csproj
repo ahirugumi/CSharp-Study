@@ -65,6 +65,12 @@
     <Compile Include="test\MyGenericActionDelegateClassTest.cs" />
     <Compile Include="MyGenericPredicateDelegateClass.cs" />
     <Compile Include="test\MyGenericPredicateDelegateClassTest.cs" />
+    <Compile Include="MyAnonymousDelegateClass.cs" />
+    <Compile Include="test\MyAnonymousDelegateClassTest.cs" />
+    <Compile Include="MyGenericFuncDelegateClass.cs" />
+    <Compile Include="test\MyGenericFuncDelegateClassTest.cs" />
+    <Compile Include="MyEventHandler.cs" />
+    <Compile Include="test\MyEventHandlerTest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
