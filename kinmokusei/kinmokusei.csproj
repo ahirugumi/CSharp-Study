@@ -71,6 +71,9 @@
     <Compile Include="test\MyGenericFuncDelegateClassTest.cs" />
     <Compile Include="MyEventHandler.cs" />
     <Compile Include="test\MyEventHandlerTest.cs" />
+    <Compile Include="MyExceptionClass.cs" />
+    <Compile Include="test\MyExceptionClassTest.cs" />
+    <Compile Include="MyCustomException.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
