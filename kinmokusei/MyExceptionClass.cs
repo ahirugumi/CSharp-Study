@@ -22,26 +22,6 @@ namespace kinmokusei
 				throw new InvalidProgramException("execute fail",ex);
 			}
 		}
-
-		public void ExecuteThrowException (int arg)
-		{
-			try {
-				this.Execute(arg);
-			} catch (InvalidOperationException ex) {
-				//not new wrapper
-				throw ex;
-			}
-		}
-
-		public void ExecuteThrowOnlyException (int arg)
-		{
-			try {
-				this.Execute(arg);
-			} catch (InvalidOperationException ex) {
-				//not throw ex
-				throw;
-			}
-		}
 	}
 }
 

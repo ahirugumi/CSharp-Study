@@ -15,6 +15,7 @@ namespace kinmokusei
 				Assert.Fail("ExecuteTestCase fail");
 			} catch (InvalidOperationException ex) {
 				Assert.AreEqual(ex.Message,"args is > 0");
+				Assert.IsNull(ex.InnerException);
 			}
 		}
 
@@ -28,32 +29,6 @@ namespace kinmokusei
 			} catch (InvalidProgramException ex) {
 				Assert.AreEqual(ex.Message,"execute fail");
 				Assert.AreEqual(ex.InnerException.Message,"args is > 0");
-			}
-		}
-
-		[Test()]
-		public void ExecuteThrowExceptionTestCase ()
-		{
-			try {
-				MyExceptionClass my = new MyExceptionClass();
-				my.ExecuteThrowException(-1);
-				Assert.Fail("ExecuteThrowExceptionTestCase fail");
-			} catch (InvalidOperationException ex) {
-				//ex is innerexception=null
-				Assert.AreEqual(ex.Message,"args is > 0");
-			}
-		}
-
-		[Test()]
-		public void ExecuteThrowOnlyExceptionTestCase ()
-		{
-			try {
-				MyExceptionClass my = new MyExceptionClass();
-				my.ExecuteThrowOnlyException(-1);
-				Assert.Fail("ExecuteThrowOnlyExceptionTestCase fail");
-			} catch (InvalidOperationException ex) {
-				//ex is innerexception=null
-				Assert.AreEqual(ex.Message,"args is > 0");
 			}
 		}
 
