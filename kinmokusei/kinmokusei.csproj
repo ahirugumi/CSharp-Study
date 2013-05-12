@@ -74,6 +74,11 @@
     <Compile Include="MyExceptionClass.cs" />
     <Compile Include="test\MyExceptionClassTest.cs" />
     <Compile Include="MyCustomException.cs" />
+    <Compile Include="test\MyBasicListTest.cs" />
+    <Compile Include="MyBasicList.cs" />
+    <Compile Include="MyIndexer.cs" />
+    <Compile Include="MyIEnumerableClass.cs" />
+    <Compile Include="MyYieldClass.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
