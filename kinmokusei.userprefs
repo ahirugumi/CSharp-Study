@@ -1,29 +1,35 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="kinmokusei/test/MyExceptionClassTest.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="kinmokusei/MyBasicLINQ.cs">
     <Files>
-      <File FileName="kinmokusei/test/MyExceptionClassTest.cs" Line="25" Column="9" />
-      <File FileName="kinmokusei/MyExceptionClass.cs" Line="1" Column="1" />
-      <File FileName="kinmokusei/MyCustomException.cs" Line="14" Column="3" />
-      <File FileName="kinmokusei/MyClass.cs" Line="11" Column="1" />
-      <File FileName="kinmokusei/test/Main.cs" Line="17" Column="5" />
+      <File FileName="kinmokusei/MyBasicList.cs" Line="43" Column="1" />
+      <File FileName="kinmokusei/test/MyBasicListTest.cs" Line="82" Column="1" />
+      <File FileName="kinmokusei/MyIndexer.cs" Line="1" Column="1" />
+      <File FileName="kinmokusei/MyIEnumerableClass.cs" Line="1" Column="1" />
+      <File FileName="kinmokusei/MyYieldClass.cs" Line="15" Column="37" />
+      <File FileName="kinmokusei/MyBasicLINQ.cs" Line="17" Column="8" />
+      <File FileName="kinmokusei/test/MyBasicLINQTest.cs" Line="21" Column="25" />
+      <File FileName="kinmokusei/MyExtensionClass.cs" Line="14" Column="1" />
+      <File FileName="kinmokusei/test/MyExtensionClassTest.cs" Line="13" Column="1" />
+      <File FileName="kinmokusei/test/MyEventHandlerTest.cs" Line="1" Column="1" />
+      <File FileName="kinmokusei/MyGenericActionDelegateClass.cs" Line="1" Column="1" />
+      <File FileName="kinmokusei/MyGenericFuncDelegateClass.cs" Line="1" Column="1" />
+      <File FileName="kinmokusei/MyGenericPredicateDelegateClass.cs" Line="36" Column="1" />
+      <File FileName="kinmokusei/MyAnonymousDelegateClass.cs" Line="21" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="kinmokusei" expanded="True">
-            <Node name="test" expanded="True">
-              <Node name="MyExceptionClassTest.cs" selected="True" />
-            </Node>
+            <Node name="test" expanded="True" />
+            <Node name="MyBasicLINQ.cs" selected="True" />
           </Node>
         </State>
       </Pad>
       <Pad Id="ClassPad">
-        <State expanded="True">
+        <State expanded="True" selected="True">
           <Node name="kinmokusei" expanded="True">
-            <Node name="kinmokusei" expanded="True">
-              <Node name="kinmokusei.Main" selected="True" />
-            </Node>
+            <Node name="kinmokusei" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -31,11 +37,7 @@
         <State />
       </Pad>
       <Pad Id="MonoDevelop.NUnit.TestPad">
-        <State expanded="True" selected="True">
-          <Node name="kinmokusei" expanded="True">
-            <Node name="kinmokusei" expanded="True" />
-          </Node>
-        </State>
+        <State expanded="True" selected="True" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

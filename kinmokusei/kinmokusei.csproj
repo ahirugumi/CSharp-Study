@@ -79,6 +79,10 @@
     <Compile Include="MyIndexer.cs" />
     <Compile Include="MyIEnumerableClass.cs" />
     <Compile Include="MyYieldClass.cs" />
+    <Compile Include="MyBasicLINQ.cs" />
+    <Compile Include="test\MyBasicLINQTest.cs" />
+    <Compile Include="MyExtensionClass.cs" />
+    <Compile Include="test\MyExtensionClassTest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
