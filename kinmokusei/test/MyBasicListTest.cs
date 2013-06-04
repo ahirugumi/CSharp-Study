@@ -73,7 +73,7 @@ namespace kinmokusei
 		public void YieldTest ()
 		{
 			string checkValue=string.Empty;
-			IEnumerable ienumerable = new MyYieldClass(new string[]{"foo","baz","bar","moge","hoge"});
+			MyYieldClass ienumerable = new MyYieldClass(new string[]{"foo","baz","bar","moge","hoge"});
 			foreach (var item in ienumerable) {
 				checkValue+=item;
 				Console.WriteLine("Test foreach:" + item);

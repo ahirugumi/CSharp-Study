@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace kinmokusei
 {
-	public class MyYieldClass:IEnumerable
+	public class MyYieldClass
 	{
 
 		private string[] list;
