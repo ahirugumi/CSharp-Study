@@ -83,6 +83,8 @@
     <Compile Include="test\MyBasicLINQTest.cs" />
     <Compile Include="MyExtensionClass.cs" />
     <Compile Include="test\MyExtensionClassTest.cs" />
+    <Compile Include="MyDictonaryClass.cs" />
+    <Compile Include="test\MyDictonaryClassTest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

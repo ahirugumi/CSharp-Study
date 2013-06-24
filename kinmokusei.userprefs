@@ -1,28 +1,32 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="kinmokusei/MyYieldClass.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="kinmokusei/test/MyDictonaryClassTest.cs">
     <Files>
-      <File FileName="kinmokusei/MyBasicList.cs" Line="43" Column="1" />
-      <File FileName="kinmokusei/test/MyBasicListTest.cs" Line="83" Column="3" />
+      <File FileName="kinmokusei/MyBasicList.cs" Line="1" Column="1" />
+      <File FileName="kinmokusei/test/MyBasicListTest.cs" Line="1" Column="1" />
       <File FileName="kinmokusei/MyIndexer.cs" Line="1" Column="1" />
       <File FileName="kinmokusei/MyIEnumerableClass.cs" Line="1" Column="1" />
-      <File FileName="kinmokusei/MyYieldClass.cs" Line="14" Column="3" />
-      <File FileName="kinmokusei/MyBasicLINQ.cs" Line="17" Column="8" />
-      <File FileName="kinmokusei/test/MyBasicLINQTest.cs" Line="21" Column="25" />
-      <File FileName="kinmokusei/MyExtensionClass.cs" Line="14" Column="1" />
-      <File FileName="kinmokusei/test/MyExtensionClassTest.cs" Line="13" Column="1" />
+      <File FileName="kinmokusei/MyYieldClass.cs" Line="1" Column="1" />
+      <File FileName="kinmokusei/MyBasicLINQ.cs" Line="1" Column="1" />
+      <File FileName="kinmokusei/test/MyBasicLINQTest.cs" Line="1" Column="1" />
+      <File FileName="kinmokusei/MyExtensionClass.cs" Line="1" Column="1" />
+      <File FileName="kinmokusei/test/MyExtensionClassTest.cs" Line="1" Column="1" />
       <File FileName="kinmokusei/test/MyEventHandlerTest.cs" Line="1" Column="1" />
       <File FileName="kinmokusei/MyGenericActionDelegateClass.cs" Line="1" Column="1" />
       <File FileName="kinmokusei/MyGenericFuncDelegateClass.cs" Line="1" Column="1" />
-      <File FileName="kinmokusei/MyGenericPredicateDelegateClass.cs" Line="36" Column="1" />
-      <File FileName="kinmokusei/MyAnonymousDelegateClass.cs" Line="21" Column="25" />
+      <File FileName="kinmokusei/MyGenericPredicateDelegateClass.cs" Line="1" Column="1" />
+      <File FileName="kinmokusei/MyAnonymousDelegateClass.cs" Line="1" Column="1" />
+      <File FileName="kinmokusei/MyDictonaryClass.cs" Line="55" Column="4" />
+      <File FileName="kinmokusei/test/MyDictonaryClassTest.cs" Line="75" Column="24" />
+      <File FileName="kinmokusei/test/MyExceptionClassTest.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="kinmokusei" expanded="True">
-            <Node name="test" expanded="True" />
-            <Node name="MyYieldClass.cs" selected="True" />
+            <Node name="test" expanded="True">
+              <Node name="MyDictonaryClassTest.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -35,6 +39,9 @@
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State />
+      </Pad>
+      <Pad Id="ConnectionManagerPad">
+        <State selected="True" />
       </Pad>
       <Pad Id="MonoDevelop.NUnit.TestPad">
         <State expanded="True" selected="True" />
