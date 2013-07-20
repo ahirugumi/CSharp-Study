@@ -1,16 +1,20 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="kinmokusei/test/MyStringClassTest.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" ActiveRuntime="Mono 2.10.12" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="kinmokusei/test/MyFileClassTest.cs">
     <Files>
       <File FileName="kinmokusei/test/MyStringClassTest.cs" Line="88" Column="1" />
       <File FileName="kinmokusei/MyStringClass.cs" Line="15" Column="3" />
+      <File FileName="kinmokusei/test/MyFileClassTest.cs" Line="89" Column="1" />
+      <File FileName="kinmokusei/test/MyExtensionClassTest.cs" Line="1" Column="1" />
+      <File FileName="kinmokusei/MyBasicLINQ.cs" Line="4" Column="1" />
+      <File FileName="kinmokusei/test/MyClassTest.cs" Line="71" Column="4" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="kinmokusei" expanded="True">
             <Node name="test" expanded="True">
-              <Node name="MyStringClassTest.cs" selected="True" />
+              <Node name="MyFileClassTest.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -25,11 +29,11 @@
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State />
       </Pad>
-      <Pad Id="ConnectionManagerPad">
-        <State selected="True" />
-      </Pad>
       <Pad Id="MonoDevelop.NUnit.TestPad">
         <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="ConnectionManagerPad">
+        <State selected="True" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
