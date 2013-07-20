@@ -69,7 +69,7 @@ namespace kinmokusei
 		[Test()]
 		public void EnumTest ()
 		{
-			Assert.IsInstanceOf<MyEnum>(my.Language);
+			Assert.IsInstanceOfType(typeof(MyEnum),my.Language);
 		} 
 
 		[Test()]
