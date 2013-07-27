@@ -31,6 +31,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="nunit.framework" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MyClass.cs" />
@@ -88,6 +90,8 @@
     <Compile Include="MyStringClass.cs" />
     <Compile Include="test\MyStringClassTest.cs" />
     <Compile Include="test\MyFileClassTest.cs" />
+    <Compile Include="MyXMLClass.cs" />
+    <Compile Include="test\MyXMLClassTest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
