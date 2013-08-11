@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Tests>
+    <TestRecord Name="kinmokusei">
+      <Tests>
+        <TestRecord Name="MyFileClassTest">
+          <Results>
+            <UnitTestResult>
+              <TestDate>2013-07-28T08:37:39</TestDate>
+              <Status />
+              <Passed>5</Passed>
+              <Errors>0</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>成功したテスト
+
+実行時間: 0.49ms</Message>
+            </UnitTestResult>
+          </Results>
+          <Tests>
+            <TestRecord Name="AsyncFileReadTestCase">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2013-07-28T08:37:39</TestDate>
+                  <Status />
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>成功したテスト
+
+実行時間: 0.04ms</Message>
+                  <ConsoleOutput>buffer=hoge
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+buffer=
+baz
+piyo
+hoge
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+baz
+piyo
+hog
+buffer=e
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+ba
+buffer=z
+piyo
+hoge
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+baz
+piyo
+
+i=0
+i=1
+i=2
+i=3
+i=4
+i=5
+i=6
+i=7
+i=8
+i=9
+i=10
+i=11
+i=12
+i=13
+i=14
+i=15
+i=16
+i=17
+i=18
+i=19
+i=20
+i=21
+i=22
+i=23
+i=24
+i=25
+i=26
+i=27
+i=28
+i=29
+i=30
+i=31
+i=32
+i=33
+i=34
+i=35
+i=36
+i=37
+i=38
+i=39
+i=40
+i=41
+i=42
+i=43
+i=44
+i=45
+i=46
+i=47
+i=48
+i=49
+i=50
+i=51
+i=52
+i=53
+i=54
+i=55
+i=56
+i=57
+i=58
+i=59
+i=60
+i=61
+i=62
+i=63
+i=64
+i=65
+i=66
+i=67
+i=68
+i=69
+i=70
+i=71
+i=72
+i=73
+i=74
+i=75
+i=76
+i=77
+i=78
+i=79
+i=80
+i=81
+i=82
+i=83
+i=84
+i=85
+i=86
+i=87
+i=88
+i=89
+i=90
+i=91
+i=92
+i=93
+i=94
+i=95
+i=96
+i=97
+i=98
+i=99
+</ConsoleOutput>
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2013-07-28T09:09:26</TestDate>
+                  <Status />
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>成功したテスト
+
+実行時間: 0.08ms</Message>
+                  <ConsoleOutput>buffer=hoge
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+buffer=
+baz
+piyo
+hoge
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+baz
+piyo
+hog
+buffer=e
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+ba
+buffer=z
+piyo
+hoge
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+baz
+piyo
+hoge
+moge
+bar
+baz
+piyo
+
+i=0
+i=1
+i=2
+i=3
+i=4
+i=5
+i=6
+i=7
+i=8
+i=9
+i=10
+i=11
+i=12
+i=13
+i=14
+i=15
+i=16
+i=17
+i=18
+i=19
+i=20
+i=21
+i=22
+i=23
+i=24
+i=25
+i=26
+i=27
+i=28
+i=29
+i=30
+i=31
+i=32
+i=33
+i=34
+i=35
+i=36
+i=37
+i=38
+i=39
+i=40
+i=41
+i=42
+i=43
+i=44
+i=45
+i=46
+i=47
+i=48
+i=49
+i=50
+i=51
+i=52
+i=53
+i=54
+i=55
+i=56
+i=57
+i=58
+i=59
+i=60
+i=61
+i=62
+i=63
+i=64
+i=65
+i=66
+i=67
+i=68
+i=69
+i=70
+i=71
+i=72
+i=73
+i=74
+i=75
+i=76
+i=77
+i=78
+i=79
+i=80
+i=81
+i=82
+i=83
+i=84
+i=85
+i=86
+i=87
+i=88
+i=89
+i=90
+i=91
+i=92
+i=93
+i=94
+i=95
+i=96
+i=97
+i=98
+i=99
+</ConsoleOutput>
+                  <ConsoleError />
+                </UnitTestResult>
+              </Results>
+            </TestRecord>
+            <TestRecord Name="CreateAllTextFileTestCase">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2013-07-28T08:37:39</TestDate>
+                  <Status />
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>成功したテスト
+
+実行時間: 0.02ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+              </Results>
+            </TestRecord>
+            <TestRecord Name="CreateStreamWriterTestCase">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2013-07-28T08:37:39</TestDate>
+                  <Status />
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>成功したテスト
+
+実行時間: 0.01ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+              </Results>
+            </TestRecord>
+            <TestRecord Name="FileListTestCase">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2013-07-28T08:37:39</TestDate>
+                  <Status />
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>成功したテスト
+
+実行時間: 0.02ms</Message>
+                  <ConsoleOutput>/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/AssemblyInfo.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/IMyBarInterface.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/IMyFooInterface.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyAbstractClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyAbstractDerivedClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyAnonymousDelegateClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyBaseClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyBasicLINQ.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyBasicList.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyBazClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyCustomException.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyDelegateAbstractClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyDelegateClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyDerivedClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyDictonaryClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyEnum.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyEventHandler.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyExceptionClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyExtensionClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyGenericActionDelegateClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyGenericFuncDelegateClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyGenericPredicateDelegateClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyIEnumerableClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyIndexer.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyNetworkClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MySealedClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MySealedDerivedClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyStringClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MySubClass1.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MySubClass2.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MySubClass3.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyXMLClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyYieldClass.cs
+</ConsoleOutput>
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2013-07-28T08:37:53</TestDate>
+                  <Status />
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>成功したテスト
+
+実行時間: 0.03ms</Message>
+                  <ConsoleOutput>/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/AssemblyInfo.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/IMyBarInterface.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/IMyFooInterface.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyAbstractClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyAbstractDerivedClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyAnonymousDelegateClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyBaseClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyBasicLINQ.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyBasicList.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyBazClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyCustomException.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyDelegateAbstractClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyDelegateClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyDerivedClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyDictonaryClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyEnum.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyEventHandler.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyExceptionClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyExtensionClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyGenericActionDelegateClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyGenericFuncDelegateClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyGenericPredicateDelegateClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyIEnumerableClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyIndexer.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyNetworkClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MySealedClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MySealedDerivedClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyStringClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MySubClass1.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MySubClass2.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MySubClass3.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyXMLClass.cs
+/Users/tomohiro/gitrepo/study/CSharp-Study/kinmokusei/MyYieldClass.cs
+</ConsoleOutput>
+                  <ConsoleError />
+                </UnitTestResult>
+              </Results>
+            </TestRecord>
+            <TestRecord Name="IsolatedStorageWriteReadTestCase">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2013-07-28T08:37:39</TestDate>
+                  <Status />
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>成功したテスト
+
+実行時間: 0.05ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+              </Results>
+            </TestRecord>
+          </Tests>
+        </TestRecord>
+      </Tests>
+    </TestRecord>
+  </Tests>
+</TestRecord>

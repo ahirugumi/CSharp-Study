@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kinmokusei", "kinmokusei\kinmokusei.csproj", "{0A2CE2F0-FD10-4DCC-9AB9-A3CA8668A155}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kinmokusei-socket-client", "kinmokusei-socket-client\kinmokusei-socket-client.csproj", "{A21B9790-2C88-4F6A-B754-95476C72960F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kinmokusei-socket-server", "kinmokusei-socket-server\kinmokusei-socket-server.csproj", "{35CBFE57-EA01-4790-9344-B48C1404D25A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,8 +17,16 @@ Global
 		{0A2CE2F0-FD10-4DCC-9AB9-A3CA8668A155}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A2CE2F0-FD10-4DCC-9AB9-A3CA8668A155}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A2CE2F0-FD10-4DCC-9AB9-A3CA8668A155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35CBFE57-EA01-4790-9344-B48C1404D25A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35CBFE57-EA01-4790-9344-B48C1404D25A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35CBFE57-EA01-4790-9344-B48C1404D25A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35CBFE57-EA01-4790-9344-B48C1404D25A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A21B9790-2C88-4F6A-B754-95476C72960F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A21B9790-2C88-4F6A-B754-95476C72960F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A21B9790-2C88-4F6A-B754-95476C72960F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A21B9790-2C88-4F6A-B754-95476C72960F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = kinmokusei\kinmokusei.csproj
+		StartupItem = kinmokusei-socket-client\kinmokusei-socket-client.csproj
 	EndGlobalSection
 EndGlobal

@@ -92,6 +92,8 @@
     <Compile Include="test\MyFileClassTest.cs" />
     <Compile Include="MyXMLClass.cs" />
     <Compile Include="test\MyXMLClassTest.cs" />
+    <Compile Include="MyNetworkClass.cs" />
+    <Compile Include="test\MyNetworkClassTest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
