@@ -33,6 +33,7 @@
     <Reference Include="nunit.framework" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
+    <Reference Include="Mono.Data.Sqlite" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MyClass.cs" />
@@ -94,9 +95,12 @@
     <Compile Include="test\MyXMLClassTest.cs" />
     <Compile Include="MyNetworkClass.cs" />
     <Compile Include="test\MyNetworkClassTest.cs" />
+    <Compile Include="MyDatabaseClass.cs" />
+    <Compile Include="test\MyDatabaseClassTest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Folder Include="test\" />
+    <Folder Include="database\" />
   </ItemGroup>
 </Project>

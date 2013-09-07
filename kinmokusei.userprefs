@@ -1,22 +1,18 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" ActiveRuntime="Mono 2.10.12" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="kinmokusei-socket-client/MySocketClient.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="kinmokusei/test/MyDatabaseClassTest.cs">
     <Files>
-      <File FileName="kinmokusei-socket-client/MySocketClient.cs" Line="23" Column="2" />
-      <File FileName="kinmokusei-socket-server/MySocketServer.cs" Line="14" Column="24" />
-      <File FileName="kinmokusei/MyXMLClass.cs" Line="143" Column="29" />
-      <File FileName="kinmokusei/test/MyXMLClassTest.cs" Line="124" Column="41" />
-      <File FileName="kinmokusei/test/MyNetworkClassTest.cs" Line="34" Column="36" />
-      <File FileName="kinmokusei/MyNetworkClass.cs" Line="30" Column="33" />
+      <File FileName="kinmokusei/MyDatabaseClass.cs" Line="28" Column="9" />
+      <File FileName="kinmokusei/test/MyDatabaseClassTest.cs" Line="1" Column="1" />
+      <File FileName="kinmokusei/test/MyDelegateClassTest.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="kinmokusei" expanded="True">
-            <Node name="test" expanded="True" />
-          </Node>
-          <Node name="kinmokusei-socket-client" expanded="True">
-            <Node name="MySocketClient.cs" selected="True" />
+            <Node name="test" expanded="True">
+              <Node name="MyDatabaseClassTest.cs" selected="True" />
+            </Node>
           </Node>
           <Node name="kinmokusei-socket-server" expanded="True" />
         </State>
@@ -35,7 +31,13 @@
         <State selected="True" />
       </Pad>
       <Pad Id="MonoDevelop.NUnit.TestPad">
-        <State expanded="True" selected="True" />
+        <State expanded="True">
+          <Node name="kinmokusei" expanded="True">
+            <Node name="kinmokusei" expanded="True">
+              <Node name="MyDatabaseClassTest" selected="True" />
+            </Node>
+          </Node>
+        </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
