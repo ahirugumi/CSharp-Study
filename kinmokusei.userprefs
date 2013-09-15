@@ -1,20 +1,20 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" ActiveRuntime="Mono 2.10.12" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="kinmokusei/test/MyDatabaseClassTest.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="kinmokusei-thread1/MyThread.cs">
     <Files>
-      <File FileName="kinmokusei/MyDatabaseClass.cs" Line="28" Column="9" />
-      <File FileName="kinmokusei/test/MyDatabaseClassTest.cs" Line="1" Column="1" />
-      <File FileName="kinmokusei/test/MyDelegateClassTest.cs" Line="1" Column="1" />
+      <File FileName="kinmokusei-thread4/MyThread.cs" Line="17" Column="27" />
+      <File FileName="kinmokusei-socket-server/MySocketServer.cs" Line="1" Column="1" />
+      <File FileName="kinmokusei-thread1/MyThread.cs" Line="20" Column="4" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="kinmokusei" expanded="True">
-            <Node name="test" expanded="True">
-              <Node name="MyDatabaseClassTest.cs" selected="True" />
-            </Node>
+          <Node name="kinmokusei-thread1" expanded="True">
+            <Node name="MyThread.cs" selected="True" />
           </Node>
-          <Node name="kinmokusei-socket-server" expanded="True" />
+          <Node name="kinmokusei-thread2" expanded="True" />
+          <Node name="kinmokusei-thread3" expanded="True" />
+          <Node name="kinmokusei-thread4" expanded="True" />
         </State>
       </Pad>
       <Pad Id="ClassPad">
@@ -31,13 +31,7 @@
         <State selected="True" />
       </Pad>
       <Pad Id="MonoDevelop.NUnit.TestPad">
-        <State expanded="True">
-          <Node name="kinmokusei" expanded="True">
-            <Node name="kinmokusei" expanded="True">
-              <Node name="MyDatabaseClassTest" selected="True" />
-            </Node>
-          </Node>
-        </State>
+        <State expanded="True" selected="True" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
