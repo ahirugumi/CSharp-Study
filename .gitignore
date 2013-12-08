@@ -1,7 +1,9 @@
 
 *.dll
 
-kinmokusei/bin/Debug/kinmokusei.dll.mdb
+*.exe
+
+*.mdb
 
 kinmokusei/test-results/kinmokusei.csproj-Debug-2013-02-09.xml
 
