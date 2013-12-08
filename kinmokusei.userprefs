@@ -1,35 +1,17 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" ActiveRuntime="Mono 2.10.12" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="kinmokusei-thread1/MyThread.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="kinmokusei-web/WebSample.aspx.cs">
     <Files>
-      <File FileName="kinmokusei-thread4/MyThread.cs" Line="17" Column="27" />
-      <File FileName="kinmokusei-socket-server/MySocketServer.cs" Line="1" Column="1" />
-      <File FileName="kinmokusei-thread1/MyThread.cs" Line="20" Column="4" />
+      <File FileName="kinmokusei-web/web.config" Line="1" Column="1" />
+      <File FileName="kinmokusei-web/Global.asax" Line="1" Column="1" />
+      <File FileName="kinmokusei-web/WebSample.aspx" Line="1" Column="1" />
+      <File FileName="kinmokusei-web/WebSample.aspx.cs" Line="1" Column="1" />
+      <File FileName="kinmokusei/MyDynamics.cs" Line="1" Column="1" />
+      <File FileName="kinmokusei/MyDatabaseClass.cs" Line="2" Column="7" />
+      <File FileName="kinmokusei-thread4/MyThread.cs" Line="1" Column="1" />
+      <File FileName="kinmokusei-web/WebSample.aspx.designer.cs" Line="1" Column="1" />
     </Files>
     <Pads>
-      <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="kinmokusei-thread1" expanded="True">
-            <Node name="MyThread.cs" selected="True" />
-          </Node>
-          <Node name="kinmokusei-thread2" expanded="True" />
-          <Node name="kinmokusei-thread3" expanded="True" />
-          <Node name="kinmokusei-thread4" expanded="True" />
-        </State>
-      </Pad>
-      <Pad Id="ClassPad">
-        <State expanded="True" selected="True">
-          <Node name="kinmokusei" expanded="True">
-            <Node name="kinmokusei" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
-      <Pad Id="ConnectionManagerPad">
-        <State selected="True" />
-      </Pad>
       <Pad Id="MonoDevelop.NUnit.TestPad">
         <State expanded="True" selected="True" />
       </Pad>

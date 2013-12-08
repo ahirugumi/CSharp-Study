@@ -15,8 +15,7 @@ namespace kinmokusei
 		{
 			MyXMLClass myxml = new MyXMLClass ();
 			var retxml = myxml.GetXMLDocument ();
-			Assert.AreEqual (retxml.ToString(), @"<?xml version=""1.0"" encoding=""utf-16""?>
-<myxmls>
+			Assert.AreEqual (retxml.ToString().Replace("\r",""), @"<myxmls>
   <myxml>
     <id>100</id>
     <name mail=""hoge@gmail.com"">hoge</name>
@@ -37,8 +36,7 @@ namespace kinmokusei
 		{
 			MyXMLClass myxml = new MyXMLClass ();
 			var retxml = myxml.GetXMLDocument ();
-			Assert.AreEqual (retxml.ToString(), @"<?xml version=""1.0"" encoding=""utf-16""?>
-<myxmls>
+			Assert.AreEqual (retxml.ToString().Replace("\r",""), @"<myxmls>
   <myxml>
     <id>100</id>
     <name mail=""hoge@gmail.com"">hoge</name>
@@ -59,8 +57,7 @@ namespace kinmokusei
 		{
 			MyXMLClass myxml = new MyXMLClass ();
 			var retxml = myxml.GetLINQToXML ();
-			Assert.AreEqual (retxml.ToString(), @"<?xml version=""1.0"" encoding=""utf-16""?>
-<myxmls>
+			Assert.AreEqual (retxml.ToString().Replace("\r",""), @"<myxmls>
   <myxml>
     <id>100</id>
     <name mail=""hoge@gmail.com"">hoge</name>
@@ -122,7 +119,7 @@ namespace kinmokusei
 		{
 			MyXMLClass myxml = new MyXMLClass ();
 			var retxml = myxml.DeserializeXML ();
-			Assert.IsInstanceOf<List<MyXMLList>> (retxml);
+			Assert.IsInstanceOfType(typeof(List<MyXMLList>),retxml);
 		}
 	}
 }

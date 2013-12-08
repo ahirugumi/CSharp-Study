@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kinmokusei-thread3", "kinmo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kinmokusei-thread4", "kinmokusei-thread4\kinmokusei-thread4.csproj", "{5E3C9A68-D115-4877-A456-30D32335DD3F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kinmokusei-web", "kinmokusei-web\kinmokusei-web.csproj", "{C632674A-8983-43E8-849A-EA7C3436AE95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,12 +47,16 @@ Global
 		{A21B9790-2C88-4F6A-B754-95476C72960F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A21B9790-2C88-4F6A-B754-95476C72960F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A21B9790-2C88-4F6A-B754-95476C72960F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C632674A-8983-43E8-849A-EA7C3436AE95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C632674A-8983-43E8-849A-EA7C3436AE95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C632674A-8983-43E8-849A-EA7C3436AE95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C632674A-8983-43E8-849A-EA7C3436AE95}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DED042FE-EFBB-4AB5-AE19-76088B9553CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DED042FE-EFBB-4AB5-AE19-76088B9553CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DED042FE-EFBB-4AB5-AE19-76088B9553CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DED042FE-EFBB-4AB5-AE19-76088B9553CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = kinmokusei\kinmokusei.csproj
+		StartupItem = kinmokusei-web\kinmokusei-web.csproj
 	EndGlobalSection
 EndGlobal
