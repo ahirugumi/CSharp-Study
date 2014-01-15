@@ -1,21 +1,9 @@
-﻿<Properties>
+﻿<Properties MonoDevelop.MonoMac.LastXamMacNagTime="2014/01/13 1:19:50">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="kinmokusei-web/WebSample.aspx.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="kinmokusei-monoform/MonoForm.cs">
     <Files>
-      <File FileName="kinmokusei-web/web.config" Line="1" Column="1" />
-      <File FileName="kinmokusei-web/Global.asax" Line="1" Column="1" />
-      <File FileName="kinmokusei-web/WebSample.aspx" Line="1" Column="1" />
-      <File FileName="kinmokusei-web/WebSample.aspx.cs" Line="1" Column="1" />
-      <File FileName="kinmokusei/MyDynamics.cs" Line="1" Column="1" />
-      <File FileName="kinmokusei/MyDatabaseClass.cs" Line="2" Column="7" />
-      <File FileName="kinmokusei-thread4/MyThread.cs" Line="1" Column="1" />
-      <File FileName="kinmokusei-web/WebSample.aspx.designer.cs" Line="1" Column="1" />
+      <File FileName="kinmokusei-monoform/MonoForm.cs" Line="29" Column="4" />
     </Files>
-    <Pads>
-      <Pad Id="MonoDevelop.NUnit.TestPad">
-        <State expanded="True" selected="True" />
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

@@ -17,46 +17,71 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kinmokusei-thread4", "kinmo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kinmokusei-web", "kinmokusei-web\kinmokusei-web.csproj", "{C632674A-8983-43E8-849A-EA7C3436AE95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kinmokusei-monoform", "kinmokusei-monoform\kinmokusei-monoform.csproj", "{8BA270BA-1591-4305-BD93-42A4BC14D9FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+		AppStore|Any CPU = AppStore|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A2CE2F0-FD10-4DCC-9AB9-A3CA8668A155}.AppStore|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A2CE2F0-FD10-4DCC-9AB9-A3CA8668A155}.AppStore|Any CPU.Build.0 = Debug|Any CPU
 		{0A2CE2F0-FD10-4DCC-9AB9-A3CA8668A155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0A2CE2F0-FD10-4DCC-9AB9-A3CA8668A155}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A2CE2F0-FD10-4DCC-9AB9-A3CA8668A155}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A2CE2F0-FD10-4DCC-9AB9-A3CA8668A155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35CBFE57-EA01-4790-9344-B48C1404D25A}.AppStore|Any CPU.ActiveCfg = Debug|Any CPU
+		{35CBFE57-EA01-4790-9344-B48C1404D25A}.AppStore|Any CPU.Build.0 = Debug|Any CPU
 		{35CBFE57-EA01-4790-9344-B48C1404D25A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{35CBFE57-EA01-4790-9344-B48C1404D25A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35CBFE57-EA01-4790-9344-B48C1404D25A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35CBFE57-EA01-4790-9344-B48C1404D25A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44E1413C-0794-45C2-BB12-78A28B4BB612}.AppStore|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E1413C-0794-45C2-BB12-78A28B4BB612}.AppStore|Any CPU.Build.0 = Debug|Any CPU
 		{44E1413C-0794-45C2-BB12-78A28B4BB612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{44E1413C-0794-45C2-BB12-78A28B4BB612}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44E1413C-0794-45C2-BB12-78A28B4BB612}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44E1413C-0794-45C2-BB12-78A28B4BB612}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E3C9A68-D115-4877-A456-30D32335DD3F}.AppStore|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E3C9A68-D115-4877-A456-30D32335DD3F}.AppStore|Any CPU.Build.0 = Debug|Any CPU
 		{5E3C9A68-D115-4877-A456-30D32335DD3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5E3C9A68-D115-4877-A456-30D32335DD3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E3C9A68-D115-4877-A456-30D32335DD3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E3C9A68-D115-4877-A456-30D32335DD3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BA270BA-1591-4305-BD93-42A4BC14D9FF}.AppStore|Any CPU.ActiveCfg = AppStore|Any CPU
+		{8BA270BA-1591-4305-BD93-42A4BC14D9FF}.AppStore|Any CPU.Build.0 = AppStore|Any CPU
+		{8BA270BA-1591-4305-BD93-42A4BC14D9FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA270BA-1591-4305-BD93-42A4BC14D9FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA270BA-1591-4305-BD93-42A4BC14D9FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA270BA-1591-4305-BD93-42A4BC14D9FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97D3AA03-578D-4575-9913-9D1FA3662A32}.AppStore|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D3AA03-578D-4575-9913-9D1FA3662A32}.AppStore|Any CPU.Build.0 = Debug|Any CPU
 		{97D3AA03-578D-4575-9913-9D1FA3662A32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{97D3AA03-578D-4575-9913-9D1FA3662A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97D3AA03-578D-4575-9913-9D1FA3662A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97D3AA03-578D-4575-9913-9D1FA3662A32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A21B9790-2C88-4F6A-B754-95476C72960F}.AppStore|Any CPU.ActiveCfg = Debug|Any CPU
+		{A21B9790-2C88-4F6A-B754-95476C72960F}.AppStore|Any CPU.Build.0 = Debug|Any CPU
 		{A21B9790-2C88-4F6A-B754-95476C72960F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A21B9790-2C88-4F6A-B754-95476C72960F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A21B9790-2C88-4F6A-B754-95476C72960F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A21B9790-2C88-4F6A-B754-95476C72960F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C632674A-8983-43E8-849A-EA7C3436AE95}.AppStore|Any CPU.ActiveCfg = Debug|Any CPU
+		{C632674A-8983-43E8-849A-EA7C3436AE95}.AppStore|Any CPU.Build.0 = Debug|Any CPU
 		{C632674A-8983-43E8-849A-EA7C3436AE95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C632674A-8983-43E8-849A-EA7C3436AE95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C632674A-8983-43E8-849A-EA7C3436AE95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C632674A-8983-43E8-849A-EA7C3436AE95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DED042FE-EFBB-4AB5-AE19-76088B9553CA}.AppStore|Any CPU.ActiveCfg = Debug|Any CPU
+		{DED042FE-EFBB-4AB5-AE19-76088B9553CA}.AppStore|Any CPU.Build.0 = Debug|Any CPU
 		{DED042FE-EFBB-4AB5-AE19-76088B9553CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DED042FE-EFBB-4AB5-AE19-76088B9553CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DED042FE-EFBB-4AB5-AE19-76088B9553CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DED042FE-EFBB-4AB5-AE19-76088B9553CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = kinmokusei-web\kinmokusei-web.csproj
+		StartupItem = kinmokusei-monoform\kinmokusei-monoform.csproj
 	EndGlobalSection
 EndGlobal
