@@ -11,4 +11,4 @@ kinmokusei/test-results/kinmokusei.csproj.test-cache
 
 .DS_Store
 
-*.exe
+[Dd]ebug/
